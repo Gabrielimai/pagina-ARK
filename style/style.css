@@ -182,5 +182,12 @@ footer {
 
 #footer a {
   font-size: 20px;
+}
 
+/* ============= @MEDIA SCREEN TABLET ===============*/
+
+@media (max-width: 834px) {
+  .theIsland,.theCenter,.ragnarok {
+    margin: 40px 20px;
+  }
 }
