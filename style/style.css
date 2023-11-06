@@ -89,3 +89,18 @@ body {
   height: 200px;
 }
 /* Seção dos Dinos */
+
+
+/* Seção das construções */
+
+.build__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px 20px;
+  justify-items: center;
+  background-color: #292626;
+}
+
+
+
+/* Seção das construções */
