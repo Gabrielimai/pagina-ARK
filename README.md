@@ -3,4 +3,4 @@
 <h2>Versão desktop</h2>
 <br>
 
-<img src="./ark_desktop.gif"></img>
+<img src="./readme/ark_desktop.gif"></img>
