@@ -107,7 +107,7 @@ body {
 .maps__container .theIsland {
   display: flex;
   gap: 30px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .theIsland img {
@@ -129,7 +129,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   gap: 30px;
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 .theCenter img {
@@ -151,7 +151,7 @@ body {
 .maps__container .ragnarok {
   display: flex;
   gap: 30px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .ragnarok img {
@@ -168,3 +168,19 @@ body {
 }
 
 /* Seção de Mapas */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 10vh;
+  margin-top: 40px;
+  background-color: var(--header-backgrond);
+}
+
+#footer a {
+  font-size: 20px;
+
+}
