@@ -80,7 +80,7 @@ body {
   background-color: #292626;
 }
 
-.dinos h2{
+.dinos h2 {
   text-align: center;
 }
 
@@ -90,17 +90,81 @@ body {
 }
 /* Seção dos Dinos */
 
-
 /* Seção das construções */
 
-.build__container{
+.build__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 70px 20px;
   justify-items: center;
   background-color: #292626;
 }
-
-
-
 /* Seção das construções */
+
+/* Seção de Mapas */
+
+/* =========== THE ISLAND ============= */
+.maps__container .theIsland {
+  display: flex;
+  gap: 30px;
+  margin-left:20px;
+}
+
+.theIsland img {
+  width: 500px;
+}
+
+.theIsland .content {
+  width: 500px;
+  text-align: justify;
+}
+
+.content h3 {
+  font-size: 30px;
+}
+
+/* =========== THE CENTER ============= */
+
+.maps__container .theCenter {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  margin-right:20px;
+}
+
+.theCenter img {
+  width: 500px;
+}
+
+.theCenter .content {
+  width: 500px;
+  text-align: justify;
+}
+
+.content #h3__theCenter {
+  text-align: end;
+  font-size: 30px;
+}
+
+/* =========== RAGNAROK ============= */
+
+.maps__container .ragnarok {
+  display: flex;
+  gap: 30px;
+  margin-left:20px;
+}
+
+.ragnarok img {
+  width: 500px;
+}
+
+.ragnarok .content {
+  width: 500px;
+  text-align: justify;
+}
+
+.content #h3__ragnarok {
+  font-size: 30px;
+}
+
+/* Seção de Mapas */
