@@ -16,7 +16,8 @@
 }
 
 body {
-  width: 100%;
+  min-width: 100%;
+  height: 100vh;
   background-color: var(--main-backgrond);
   overflow-x: hidden;
 }
@@ -73,6 +74,8 @@ body {
 }
 
 .dinos__container {
+  width: 100%;
+  padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 70px 20px;
@@ -93,6 +96,7 @@ body {
 /* Seção das construções */
 
 .build__container {
+  padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 70px 20px;
@@ -183,11 +187,134 @@ footer {
 #footer a {
   font-size: 20px;
 }
+/* ============= @MEDIA SCREEN DESKTOP ===============*/
+@media (max-width: 1244px) {
+  .theIsland,
+  .theCenter,
+  .ragnarok {
+    margin: 40px 20px;
+  }
+}
 
 /* ============= @MEDIA SCREEN TABLET ===============*/
-
-@media (max-width: 834px) {
-  .theIsland,.theCenter,.ragnarok {
+@media (max-width: 814px) {
+  .theIsland,
+  .theCenter,
+  .ragnarok {
     margin: 40px 20px;
+  }
+}
+
+/* ========= @MEDIA SCREEN MOBILE ========= */
+@media (max-width: 450px) {
+  /* HERO IMG */
+  .hero img {
+    height: 400px;
+  }
+  /* =========== THE ISLAND ========= */
+  .title h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .dinos__container,
+  .build__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .dinos img {
+    width: 100%;
+  }
+
+  .maps__container .theIsland {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .theIsland img {
+    width: 370px;
+  }
+
+  .theIsland .content {
+    margin: auto;
+    padding: 8px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .content p {
+    width: 80%;
+  }
+
+  /* ====== the center ====== */
+  .dinos img {
+    width: 100%;
+  }
+
+  .maps__container .theCenter {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .theCenter img {
+    width: 370px;
+  }
+
+  .theCenter .content {
+    margin: auto;
+    padding: 8px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .content #h3__theCenter {
+    text-align: start;
+  }
+
+  .content p {
+    width: 80%;
+  }
+
+  /* ============= RAGNAROK =========== */
+  .dinos img {
+    width: 100%;
+  }
+
+  .maps__container .ragnarok {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .ragnarok img {
+    width: 370px;
+  }
+
+  .ragnarok .content {
+    margin: auto;
+    padding: 8px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .content #h3__ra.ragnarok {
+    text-align: start;
+  }
+
+  .content p {
+    width: 80%;
   }
 }
