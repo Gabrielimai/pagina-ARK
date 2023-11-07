@@ -9,3 +9,8 @@
 <br>
 
 <img src="./readme/tablet.gif"></img>
+
+<h2>mobile</h2>
+<br>
+
+<img src="./readme/mobile.png">
